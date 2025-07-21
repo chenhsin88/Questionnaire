@@ -118,3 +118,9 @@
 - 問卷列表需搭配 Angular Material 正確顯示
 
 - 問卷統計圖表需搭配 Chart.js 正確顯示
+
+---
+
+## 畫面示意
+<img width="1914" height="970" alt="image" src="https://github.com/user-attachments/assets/1ee45138-9c8f-4bed-a451-4da1857851f3" />
+
