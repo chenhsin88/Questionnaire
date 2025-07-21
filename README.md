@@ -5,7 +5,7 @@
 
 ---
 
-## 🧩 功能特色
+## 功能特色
 
 ### 🔹 前台（使用者端）
 
@@ -22,7 +22,7 @@
 
 ---
 
-## 🛠️ 使用技術
+## 使用技術
 
 ### 🔹 前端 Frontend
 
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 快速開始（後端）
+## 快速開始（後端）
 
 1. 建立 MySQL 資料庫：
 
@@ -75,7 +75,7 @@
 
 ---
 
-## 🚀 快速開始（前端）
+## 快速開始（前端）
 
 1. 進入前端專案資料夾：
 
@@ -105,34 +105,16 @@
 
 ---
 
-## 📁 專案結構說明
+## 專案結構
 
-| 資料夾 | 說明 |
-|--------|------|
-| `frontend/` | Angular 問卷系統前端 |
-| `backend/`  | Spring Boot 問卷後端 |
-| `src/main/resources/schema.sql` | 資料表建立 SQL |
-| `src/main/resources/data.sql`   | 問卷與填答假資料 |
+### 🔹 前端（[Frontend Repo](https://github.com/chenhsin88/Questionnaire)）
+
+### 🔸 後端（[Backend Repo](https://github.com/chenhsin88/quiz14)）
 
 ---
 
-## 📊 測試資料說明
+## 注意事項
 
-啟動後端後，資料庫內會有：
+- 問卷列表需搭配 Angular Material 正確顯示
 
-- 問卷（quiz）共 4 份
-- 題目（question）每份問卷 5 題
-- 回覆紀錄（feedback）多筆，含不同使用者填寫資料
-
----
-
-## 📌 注意事項
-
-- 問卷統計圖表需搭配 `Chart.js` 正確顯示
-- 本專案預設為 local 開發模式，請確認前後端連線設定無誤
-
----
-
-## 🙌 聯絡我
-
-如果你對本專案有興趣或建議，歡迎前往 GitHub 留言或聯絡我！
+- 問卷統計圖表需搭配 Chart.js 正確顯示
