@@ -106,7 +106,6 @@
 ---
 
 ## 專案結構
-
 ### 🔹 前端（[Frontend Repo](https://github.com/chenhsin88/Questionnaire)）
 
 ### 🔸 後端（[Backend Repo](https://github.com/chenhsin88/quiz14)）
@@ -114,6 +113,7 @@
 ---
 
 ## 注意事項
+- 專案首頁 http://localhost:4200/list
 
 - 問卷列表需搭配 Angular Material 正確顯示
 
