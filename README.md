@@ -1,59 +1,39 @@
 # Questionnaire
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+本專案為動態問卷系統，Angular 17 前端應用與 Spring Boot 後端（MySQL 資料庫），管理者可以輕鬆建立、管理問卷，使用者可填寫問卷，並查看統計結果。支援多種題型，適合用於意見調查、學習測驗或市場分析等情境。
 
-## Development server
 
-To start a local development server, run:
+## 功能特色
 
-```bash
-ng serve
-```
+### 🔹 前台（使用者端）
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **使用者填寫問卷**：可填寫、預覽
+- **題型支援**：單選題、多選題、簡答題
+- **統計圖表顯示結果**：以圖表方式呈現填答統計結果
 
-## Code scaffolding
+### 🔸 後台（管理者端）
+- **建立問卷**：管理者可自訂問卷標題、說明與結束時間與內容
+- **編輯／刪除問卷**：問卷建立後仍可修改或刪除
+- **統計圖表顯示結果**：以圖表方式呈現填答統計結果
+- **管理作答紀錄與內容**:檢視使用者填寫紀錄
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 使用技術
 
-```bash
-ng generate component component-name
-```
+### 前端 Frontend
+- Angular 17
+- TypeScript/ SCSS / HTML
+- Chart.js
+- Angular Material
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 後端 Backend
+- Spring Boot (Java)
+- MySQL Database
+- JPA / Hibernate
+- RESTful API
 
-```bash
-ng generate --help
-```
+## 專案結構
 
-## Building
+### 🔹 前端（[Frontend Repo](https://github.com/chenhsin88/Questionnaire)）
 
-To build the project run:
+### 🔸 後端（[Backend Repo](https://github.com/chenhsin88/quiz14)）
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
