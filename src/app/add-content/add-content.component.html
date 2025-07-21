@@ -1,0 +1,63 @@
+  <div class="divCss">
+    <div class="left">
+      <label>題目 : </label><input class="name" type="text" [(ngModel)]="qName" style="width: 65%;"><mat-icon class="refreshIcon" title="重設編輯" fontIcon="refresh" (click)="refresh()"></mat-icon><br>
+      <label>類型 : </label>
+      <button class="btn" (click)="setType(1)" [disabled]="selectedType !== 0 && selectedType !== 1">單選</button>
+      <button class="btn" (click)="setType(2)" [disabled]="selectedType !== 0 && selectedType !== 2">多選</button>
+      <button class="btn" (click)="setType(3)" [disabled]="selectedType !== 0 && selectedType !== 3">簡答題</button>
+      <br>
+      <label>必填 : </label><input style="transform: scale(1.25)" type="checkbox" [(ngModel)]="must"><br>
+
+      @if(selectedType !== 3){
+
+      <label>選項 : </label><button class="btn" (click)="addOption() ">新增選項</button>
+      <mat-icon fontIcon="delete" title="刪除選項" (click)="delete()" class="deleteIcon1"></mat-icon>
+      <input style="transform: scale(1.25); margin-left: 20px;" type="checkbox" [(ngModel)]="allCheckboxBoolean" (change)="changeAllCheckbox()">
+      <div>
+        @for(input of optionArray;track input; let i = $index){
+        <input type="text" [(ngModel)]="optionArray[i].optionName"><input style="transform: scale(1.25); margin-left: 20px;" type="checkbox" [(ngModel)]="input.checkboxBoolean"
+          (change)="changeCheckbox()"><br>
+        }
+      </div>
+      }
+
+      <button class="btn" (click)="add()">加入列表</button>
+    </div>
+
+    <div class="right">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col" style="width: 40px;"><mat-icon fontIcon="delete" title="刪除題目" (click)="tabDelete()" class="deleteIcon2"></mat-icon></th>
+            <th scope="col" style="width: 50px; letter-spacing: 5px; font-size: 17px;">編號</th>
+            <th scope="col" style="letter-spacing: 5px; font-size: 17px">題目</th>
+            <th scope="col" style="width: 90px; letter-spacing: 5px; font-size: 17px">類型</th>
+            <th scope="col" style="width: 50px; letter-spacing: 5px; font-size: 17px">必填</th>
+            <th scope="col" style="width: 50px; letter-spacing: 5px; font-size: 17px">編輯</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (quest of questionArray; track $index) {
+          <tr>
+            <td>
+              <input style="transform: scale(1.25);" type="checkbox" [(ngModel)]="quest.tabBoxboolean">
+            </td>
+            <td>{{ quest.qId }}</td>
+            <td>{{ quest.qName }}</td>
+            <td>{{ quest.typeNameChinese }}</td>
+            <td>
+              <input class="custom-checkbox" type="checkbox" style="transform: scale(1.35)" [disabled]="true" [(ngModel)]="quest.must">
+            </td>
+            <td><button class="editBtn" (click)="editQuestion(quest)">編輯</button></td>
+          </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <div class="btnDiv">
+    <button class="btn1Css" (click)="previous()">上一步</button>
+    <button class="btn2Css" (click)="goToPreview()">送出</button>
+  </div>

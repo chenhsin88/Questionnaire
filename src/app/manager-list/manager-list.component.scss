@@ -1,0 +1,120 @@
+.container {
+  min-height: 100vh;
+  background-color: rgb(171, 193, 151);
+  padding: 20px;
+}
+
+.logoutBtn {
+padding: 5px;
+border-radius: 5px;
+margin-left: 92%;
+margin-bottom: 15px;
+font-size: 15px;
+font-weight: bold;
+background-color: rgb(237, 167, 47);
+border: 2px black solid;
+cursor: pointer;
+}
+
+.div2CSS {
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  background-color: rgb(243, 220, 159);
+  font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+
+.nameInput {
+  width: 15%;
+  letter-spacing: 5px;
+}
+
+.searchbtn {
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 30px;
+  background-color: rgb(237, 167, 47);
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clearSearch {
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  overflow: hidden;
+}
+
+.rowCss {
+  background-color: rgb(243, 220, 159);
+}
+
+.mat-mdc-row:nth-child(odd) {
+  background-color: rgb(201, 209, 200) ;
+}
+
+.mat-mdc-row:nth-child(even) {
+  background-color: rgb(255, 255, 255) ;
+}
+.mat-mdc-cell {
+  border-bottom: black 2px solid;
+}
+
+.mat-mdc-header-cell {
+  border-bottom: black 3px dashed;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+
+.mdc-data-table__cell {
+  text-align: center;
+}
+
+.mat-mdc-paginator {
+  font-size: 15px;
+  border-top: black 3px dashed;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+.iconCss {
+  cursor: pointer;
+}
+
+.iconCss:active {
+  background-color: rgb(243, 220, 159);
+}
+
+
+.example-section {
+  margin: 12px 0;
+}
+
+.example-margin {
+  margin: 0 12px;
+}
+
+.linkCss {
+  color: rgb(23, 62, 254);
+  text-decoration: underline;
+  cursor: pointer;
+}

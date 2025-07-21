@@ -1,0 +1,14 @@
+<div class="container">
+<div class="divCss">
+  <div class="inputDiv ">
+  <label>問卷名稱 : </label><input class="name" type="text" [(ngModel)]="title"><br>
+  <label>問卷說明 : </label><input class="explanation" type="text" [(ngModel)]="explain"><br>
+  <label>開始時間 : </label><input style="width: 20%;" type="date" [(ngModel)]="sDate" [min]="minDate"><br>
+  <label>結束時間 : </label><input style="width: 20%;" type="date" [(ngModel)]="eDate" [min]="sDate"><br>
+  </div>
+  <div class="btnDiv">
+    <button class="btn1Css" (click)="cancel()">取消</button>
+    <button class="btn2Css" (click)="next()">下一步</button>
+  </div>
+</div>
+</div>

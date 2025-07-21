@@ -1,0 +1,28 @@
+.container {
+  min-height: 100vh;
+  background-color: rgb(171, 193, 151);
+  padding: 20px;
+}
+
+.mat-tab-nav-bar {
+  width: 50%;
+  background-color: rgb(171, 193, 151);
+  padding: 10px;
+  border: 1px solid #000000;
+  border-top-right-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.mat-tab-link {
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  border-top-right-radius: 20px;
+  border: #000000 solid 2px;
+  margin-right: 5px;
+}
+
+.mat-tab-link:hover {
+  background-color: rgb(250, 211, 105);
+}

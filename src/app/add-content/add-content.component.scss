@@ -1,0 +1,152 @@
+.divCss {
+  width: 90%;
+  border: 3px black solid;
+  margin-top: 50px;
+  margin-left: 5%;
+  border-radius: 15px;
+  background-color: rgb(242, 214, 136);
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.left {
+  width: 35%;
+  height: 100%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5px;
+  letter-spacing: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 4;
+  overflow-y: auto;
+}
+
+.right {
+  background-color: rgb(220, 228, 212);
+  width: 60%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.name {
+  width: 40%;
+}
+
+.btn {
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 12px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnDiv {
+  width: 80%;
+  text-align: right;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+.btn1Css {
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn2Css {
+  font-size: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: rgb(237, 167, 47);
+  cursor: pointer;
+}
+
+.refreshIcon {
+  cursor: pointer;
+  margin-left: 20px;;
+}
+
+.refreshIcon:active {
+  background-color: rgb(201, 209, 200);
+}
+
+.deleteIcon1 {
+  cursor: pointer;
+}
+
+.deleteIcon1:active {
+  background-color: rgb(201, 209, 200);
+}
+
+.deleteIcon2 {
+  cursor: pointer;
+}
+
+.deleteIcon2:active {
+  background-color: rgb(201, 209, 200);
+}
+
+table {
+  font-family: sans-serif;
+  width: 100%;
+  font-size: 15px;
+}
+
+
+
+th,td {
+  border: 1px solid black;
+  padding: 8px 10px;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-all;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+thead {
+  background-color: rgb(171, 193, 151);
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody>tr:nth-of-type(even) {
+  background-color: rgb(201, 209, 200);
+}
+
+tbody>tr:nth-of-type(odd) {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.custom-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.custom-checkbox:checked::after {
+  content: '\2714';
+  color: rgb(227, 55, 55);
+  font-weight: bold;
+}
+
+.editBtn {
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: rgb(242, 214, 136);
+  cursor: pointer;
+}

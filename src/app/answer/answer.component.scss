@@ -1,0 +1,78 @@
+.titleCss {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  background-color: rgb(242, 214, 136);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.explanationCss {
+  width: 50%;
+  text-align: left;
+  margin-left: 25%;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(201, 209, 200);
+  border-radius: 10px;
+}
+
+.userDataCss {
+  text-align: center;
+  font-weight: bold;
+}
+
+.inputCss {
+  width: 20%;
+  padding: 3px;
+  letter-spacing: 3px;
+}
+
+.questionCss {
+  width: 60%;
+  text-align: left;
+  margin-left: 20%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: rgb(242, 214, 136);
+  border-radius: 10px;
+  border: 3px black solid;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.3);
+  line-height: 3;
+}
+
+.btnDivCss {
+  width: 95%;
+  height: 10%;
+  text-align: right;
+  margin: 30px;
+  padding-bottom: 20px;
+}
+
+.btn1Css {
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn2Css {
+  font-size: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: rgb(242, 214, 136);
+  cursor: pointer;
+}
+
+.background {
+  background-color: rgb(171, 193, 151);
+  min-height: 100vh;
+  padding-top: 3%;
+}
+

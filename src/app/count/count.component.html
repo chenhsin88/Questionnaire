@@ -1,0 +1,25 @@
+<div class="background">
+  <div class="titleCss">
+    <h1>統計結果</h1>
+  </div>
+
+
+  <div class="questionCss">
+    @for(data of chartData; track $index) {
+    <div class="pieSize">
+      <canvas id="{{data.id}}"></canvas>
+    </div>
+    }
+
+  </div>
+
+  <div class="btnDivCss">
+
+    @if (!isFromManager) {
+    <button class="btn2Css" (click)=" goBackToList()">返回列表頁</button>
+    }
+    @else if (isFromManager) {
+    <button class="btn2Css" (click)="goBackToManagerList()">返回列表頁</button>
+    }
+
+  </div>

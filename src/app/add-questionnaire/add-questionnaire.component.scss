@@ -1,0 +1,55 @@
+.divCss {
+  width: 80%;
+  border: 3px black solid;
+  margin-top: 50px;
+  margin-left: 10%;
+  border-radius: 15px;
+  background-color: rgb(242, 214, 136);
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.inputDiv {
+  width: 80%;
+  height: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 5;
+}
+
+.name {
+  width: 40%;
+}
+
+.explanation {
+  width: 40%;
+  height: 40%;
+}
+
+.btnDiv {
+  width: 80%;
+  text-align: right;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 20px;
+}
+
+.btn1Css {
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn2Css {
+  font-size: 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: rgb(237, 167, 47);
+  cursor: pointer;
+}
